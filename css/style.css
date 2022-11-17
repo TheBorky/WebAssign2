@@ -48,8 +48,9 @@ h3 {
 }
 
 .feature {
-    background-image: url(../Images/Untitled.gif);
+    background-image: url(../Images/giphy-downsized-large.gif);
     background-attachment: fixed;
+    background-size: cover;
   
 }
 
