@@ -124,8 +124,7 @@ main {
 }
 
 .gif {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 200px;
     align-items: center;
     justify-content: center;
 }
