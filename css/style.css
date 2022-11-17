@@ -1,0 +1,573 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    min-height: 100vh;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    scroll-behavior: smooth;
+    
+}
+img {
+    max-width: 100%;
+    box-shadow: #1b1a1a;
+}
+
+
+
+h2 {
+    text-align: center;
+}
+
+.wrapper{
+    padding: 30px 50px;
+}
+
+.container{
+    max-width: 1000px;
+    margin:auto;
+    
+}
+
+
+h3 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.mission {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.colors {
+    background-color: #1b1a1a;
+}
+
+.feature {
+    background-image: url(../Images/Untitled.gif);
+    background-attachment: fixed;
+  
+}
+
+
+
+.navGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #302d2d;
+}
+
+ul a {
+    text-align: center;
+    padding: 30px 40px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+ul a:hover {
+    color:#a01414 ;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    transition: 0.5s;
+    
+}
+
+
+
+.missionBack {
+    background-color: #a01414;
+}
+
+section {
+    padding: 50px;
+}
+
+.pageInd {
+    background-color: #a01414;
+    text-align: center;
+    font-size: xx-large;
+    padding: 2px;
+    
+}
+
+.header {
+    background-color: #302d2d;
+    
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    
+    /* padding: 10px; */
+
+}
+
+main {
+   background-image: url(../Images/pexels-md-iftekhar-uddin-emon-403495.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   background-color: #1b1a1a ;
+   opacity:1;
+    
+}
+
+.logo {
+    max-width: 100px;
+    position: relative;
+}
+
+.gif {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ourgoal {
+    padding: 100px;
+}
+
+
+.port {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: right;
+}
+
+.port p {
+    padding-bottom: 50px;
+}
+
+.resrc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.resrc p {
+    padding-bottom: 50px;
+}
+
+.equip {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: right;
+}
+
+.equip p {
+    padding-bottom: 50px;
+}
+
+
+footer {
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    background-color:#a01414 ;
+    color: whitesmoke;
+    border-radius: 20px;
+    max-width: 200px;
+    align-self: center;
+    display: block;
+    margin-top: 30px;
+
+    
+}
+
+.button:hover {
+    background-color: whitesmoke;
+    color: #a01414;
+    transition: 1s;
+}
+
+.desc {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.portFeature {
+    background-image: url(../Images/pexels-fox-1615824.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.resFeature {
+    background-image: url(../Images/pexels-matheus-bertelli-2608519.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.equipFeature {
+    background-image: url(../Images/pexels-donald-tong-66134.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h4 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-size: xx-large;
+}
+
+.title {
+
+    background-color: #a01414;
+}
+
+.portdescript {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: url(../Images/Gian.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    background-position: 0px;
+    
+    
+}
+
+.portdescript h1 {
+    font-size: xx-large;
+}
+
+.portdescript h3 {
+    font-size: medium;
+    text-align: left;
+    color:#a01414
+}
+
+.portdescript a {
+    padding-top: 20px;
+}
+
+.portdescript p {
+    padding-bottom: 20px;
+} 
+
+.bio {
+    padding-top: 50px;
+    color: #e6e5e3;
+}
+
+.portdescript2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: url(../Images/Image\ \(1\).jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    background-position: 0px;
+}
+
+.portdescript2 h1 {
+    font-size: xx-large;
+}
+
+.portdescript2 h3 {
+    color: white;
+    font-size: medium;
+    text-align: left;
+}
+
+.portdescript2 p {
+    padding-bottom: 20px;
+}
+
+.portdescript3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: url(../Images/Image.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    
+}
+
+.portdescript3 h1 {
+    color: white;
+    font-size: xx-large;
+}
+
+.portdescript3 h3 {
+    color: whitesmoke;
+    font-size: medium;
+    text-align: left;
+}
+
+.backing {
+    background-color: #810606;
+    padding: 50px;
+    border-radius: 40px;
+}
+
+.portdescript3 p {
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+
+.masterGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url(../Images/pexels-md-iftekhar-uddin-emon-403495.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+figure {
+    justify-content: center;
+    background-color: #810606;
+    color: #1b1a1a;
+    padding: 50px;
+    border-radius: 40px;
+    
+}
+
+figure img {
+    max-height: 500px ;
+    text-align: center;
+    border-radius: 40px;
+}
+
+figcaption {
+    padding: 20px;
+    color: whitesmoke;
+
+}
+
+.masterbutton {
+    padding-top: 30px;
+}
+
+.masterbutton a {
+    background-color: #e6e5e3;
+    color: #810606;
+    text-align: center;
+    padding: 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    align-items: right;
+    padding: 20px 80px;
+}
+
+.masterbutton a:hover {
+    background-color: #302d2d;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+@media screen and (min-width:991px) {
+    
+    input {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+
+    .port {
+        display: block;
+    }
+
+    .resrc {
+        display: block;
+    }
+
+    .resrc .button {
+        margin-bottom: 50px;
+    }
+
+    .masterGrid {
+        display: block;
+    }
+
+    .ul a:hover {
+        background-color: #232323;
+    }
+
+    .navGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 2;
+    }
+
+    .navGrid .logo{
+        grid-column: 6;
+        grid-row: 1;
+        justify-content: right;
+
+    }
+
+    .navGrid .child{
+       
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+
+    /* https://codepen.io/erikterwan/pen/EVzeRP
+    hamburger menu for mobile layout thanks to Erik Terwan on CodePen */
+    
+
+    .menuToggle
+    {
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    
+    z-index: 1;
+    
+    -webkit-user-select: none;
+    user-select: none;
+    }
+
+    .menuToggle a
+    {
+    text-decoration: none;
+    color: #232323;
+    
+    transition: color 0.3s ease;
+    }
+
+    .menuToggle a:hover
+    {
+    color: tomato;
+    }
+
+
+    .menuToggle input
+    {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    
+    cursor: pointer;
+    
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+    
+    -webkit-touch-callout: none;
+    }
+
+    /*
+    * Just a quick hamburger
+    */
+    .menuToggle span
+    {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    
+    background: #cdcdcd;
+    border-radius: 3px;
+    
+    z-index: 1;
+    
+    transform-origin: 4px 0px;
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+    }
+
+    .menuToggle span:first-child
+    {
+    transform-origin: 0% 0%;
+    }
+
+    .menuToggle span:nth-last-child(2)
+    {
+    transform-origin: 0% 100%;
+    }
+
+    /* 
+    * Transform all the slices of hamburger
+    * into a crossmark.
+    */
+    .menuToggle input:checked ~ span
+    {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+    }
+
+    /*
+    * But let's hide the middle one.
+    */
+    .menuToggle input:checked ~ span:nth-last-child(3)
+    {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+    }
+
+    /*
+    * Ohyeah and the last one should go the other direction
+    */
+    .menuToggle input:checked ~ span:nth-last-child(2)
+    {
+    transform: rotate(-45deg) translate(0, -1px);
+    }
+
+    /*
+    * Make this absolute positioned
+    * at the top left of the screen
+    */
+    .menu
+    {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+    
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+
+    .menu li
+    {
+    padding: 10px 0;
+    font-size: 22px;
+    }
+
+    /*
+    * And let's slide it in from the left
+    */
+    .menuToggle input:checked ~ ul
+    {
+    transform: none;
+    }
+}
+
+
+
+
+
+
+
