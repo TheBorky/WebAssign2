@@ -126,6 +126,8 @@ main {
 .gif {
     padding-top: 100px;
     padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 .ourgoal {
