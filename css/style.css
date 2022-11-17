@@ -380,6 +380,22 @@ figcaption {
 
 @media screen and (max-width: 990px) {
 
+    .feature {
+        background-size: 100%;
+    }
+
+    .portdescript {
+        background-size: 100%;
+    }
+
+    .portdescript2 {
+        background-size: 100%;
+    }
+
+    .portdescript3 {
+        background-size: 100%;
+    }
+
     .port {
         display: block;
     }
